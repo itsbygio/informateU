@@ -1,0 +1,152 @@
+* {
+	margin:0;
+	padding:0;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing: border-box;
+}
+
+
+
+header {
+	width:100%;
+         position:fixed;
+        top:0;
+        left:0;
+        z-index:1000;
+
+}
+
+header nav {
+	width:100%;
+	max-width:100%;
+	background:#D9EBF8;
+        
+}
+
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+    position:relative;
+    display:inline-block;
+}
+
+header nav ul li a {
+       color:black;
+       display:block;
+       text-decoration:none;
+       padding:20px;
+}
+
+header nav ul li  a span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+	background:#88CAF7;
+        text-decoration:none;
+       color:black;
+
+
+}
+#posicion{
+    float:right;
+    margin-right:20px;
+}
+
+section {
+	padding:20px;
+}
+header nav ul li:hover .children{
+    display:block;
+
+    
+}
+header nav ul li .children{
+    display:none;
+    position:absolute;
+    background: #BEDFF6;
+    width:100%;
+    z-index:1000;
+}
+#hidden{
+    display:none;
+}
+header nav ul li .children li{
+   display:block;
+   overflow:hidden;
+   border-bottom: 1px solid rgba(255,255,255,.5)
+  
+}
+
+
+@media screen and (max-width:800px ) {
+    #posicion{
+		float:none;
+		width: 100%;
+    }
+	header nav {
+		width:80%;
+		height:100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		border-bottom:1px solid rgba(255,255,255, .3);
+                
+	}
+
+        header nav ul li a{
+		display:block;
+                
+	}
+         header nav ul li .children{
+             width:100%;
+			 position:relative;
+			
+                
+	}
+        header nav ul li:hover .children{
+           display:none;
+                
+	}
+         
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#CEE8FC;
+		color:black;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		border-bottom: darkgray 0.5px solid;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+	#botton-profile2{
+		width:100%;
+	  }
+	  #hidden-li{
+		display:none;
+	}
+}

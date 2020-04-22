@@ -1,0 +1,53 @@
+   p{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .minh-100 {
+    height: 80vh;
+  }
+    #messages-error{
+    font-size:12px;
+    color:red;
+    }
+    #padding-form-register{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 10%;
+    }
+    #div-darkgrey{
+    padding-top:2%; 
+   
+    background-color:#E2DCDC;
+    }
+    
+    #padding-form{
+    padding:14%;
+    }
+    #form-profile-options{
+      color: red;
+      border-color:Red;
+    }
+    #img-profile{
+    width:150px;
+    height:150px;
+    border-radius:125px;
+
+    text-align: center;
+    }
+    #div-img{
+      text-align: center;
+
+      }
+    
+     #botton-profile{
+       width:350px;
+     }
+     #botton-profile2{
+      width:45%;
+    }
+    @media screen and (max-width:800px ) {
+       
+    #botton-profile2{
+      width:100%;
+      }
+  }
